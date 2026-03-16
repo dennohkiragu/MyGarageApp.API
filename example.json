@@ -1,0 +1,18 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=GarageAppDb;User Id=********;Password=*******;TrustServerCertificate=True;Encrypt=True;MultipleActiveResultSets=True"
+  },
+  "Jwt": {
+    "Key": "ThisIsASecretKeyForJwtTokenGeneration12345",
+    "Issuer": "GarageAppAPI",
+    "Audience": "GarageAppClient"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
